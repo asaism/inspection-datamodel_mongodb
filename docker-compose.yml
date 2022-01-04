@@ -11,10 +11,10 @@ services:
       TZ: Asia/Tokyo
   api_mongo:
     platform: linux/x86_64
-    image: mongo:3.6.5
+    image: mongo
     restart: always
     ports:
-      - 27018:27017
+      - 27017:27017
     volumes:
       - /var/lib/mongo_data:/data/db
       - ./configdb:/data/configdb
