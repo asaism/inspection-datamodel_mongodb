@@ -8,3 +8,5 @@ WORKDIR $project_dir
 
 RUN pip install -r requirements.txt
 
+ENV FLASK_ENV=development
+
