@@ -1,0 +1,1 @@
+# Inspection Datamodel for MongoDB
