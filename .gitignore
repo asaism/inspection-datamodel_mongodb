@@ -154,3 +154,4 @@ cython_debug/
 
 # Original
 fast_api/.pip
+docker/mongo_db/db
