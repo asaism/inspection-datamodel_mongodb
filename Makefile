@@ -16,9 +16,9 @@ start.background:
 	docker-compose -f docker/docker-compose.yml up -d --remove-orphans
 
 .PHONY: stop
-stop
+stop:
 	docker-compose -f docker/docker-compose.yml down
 
 .PHONY: pytest
-pytest
+pytest:
 	docker-compose -f docker/docker-compose.yml run --rm fast_api make test
